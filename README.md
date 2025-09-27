@@ -22,10 +22,10 @@ Download **Datasets** from [here](https://zenodo.org/records/16034038) and unzip
 ```    
 UPTor  
 ├── darko  
-│   ├── Test   
+│   ├── test   
 |   |  ├── 0001.npy  
 |   |  └── ...  
-│   ├── Train 
+│   ├── train 
 |   |   ├── 0017.npy
 |   |   └── ...
 |   └── darko.yaml
