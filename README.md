@@ -14,11 +14,11 @@ cd UPTor
 ```bash
 python -m venv create ./.uptor  
 source ./.uptor/bin/activate  
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Dataset Setup
-Download **Datasets** from [here](https://zenodo.org/records/16034038) and unzip it to the `root` of this repository:  
+Download **Datasets** from [here](https://zenodo.org/records/16034038) and unzip it to the `root` of this repository with train and test split folders:  
 ```    
 UPTor  
 ├── darko  
@@ -29,15 +29,17 @@ UPTor
 |   |   ├── 0017.npy
 |   |   └── ...
 |   └── darko.yaml
-├── cmu
+├── cmu_mocap
 |   └── ...
-└── h36m
+└── human_36m
     └── ...
 ``` 
 
 ## Dataset Visualization
 ```bash
-python 
+python darko.py
+python cmu_mocap.py
+python human_36m.py
 ```
 
 ## Citation
