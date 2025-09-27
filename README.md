@@ -18,9 +18,9 @@ pip install requirements.txt
 ```
 
 ## Dataset Setup
-Download **Datasets** from [here](https://zenodo.org/records/16034038) and unzip it to the `data` folder as follows:  
+Download **Datasets** from [here](https://zenodo.org/records/16034038) and unzip it to the `root` of this repository:  
 ```    
-data  
+UPTor  
 ├── darko  
 │   ├── Test   
 |   |  ├── 0001.npy  
